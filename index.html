@@ -1,52 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <h1 style="color: rgb(207, 122, 158)">Documentales</h1>
+    </header>
+
     <div id="div-principal">
         <div id="form-seleccion">
-            <button id="boton-drama">Drama</button>
-            <button id="boton-comedia">Comedia</button>
-            <button id="boton-terror">Terror</button>
+            <button id="boton-dinosaurios">Dinosaurios</button>
+            <button id="boton-desiertos">Desiertos</button>
+            <button id="boton-oceanos">Oceanos</button>
+            <button id="boton-montañas">Montañas</button>
+            <button id="boton-deslaves">Deslaves</button>
+            <button id="boton-minas">Minas</button>
+            <button id="boton-ballenas">Ballenas</button>
+            <button id="boton-volcanes">Volcanes</button>
+
+            <select id="genero">
+                <option value="Documentales" selected>Todos</option>
+                <option value="dinosaurios">Dinosaurios</option>
+                <option value="desiertos">Desiertos</option>
+                <option value="oceanos">Oceanos</option>
+                <option value="montañas">Montañas</option>
+                <option value="deslaves">Deslaves</option>
+                <option value="minas">Minas</option>
+                <option value="ballenas">Ballenas</option>
+                <option value="volcanes">Volcanes</option>
+            </select>
         </div>
-        <div id="lista_peliculas">
-            <div class="pelicula terror">
-                <h6>El resplandor</h6>
-                <img src="https://media.posterlounge.com/img/products/710000/705251/705251_poster.jpg">
+
+        <div id="lista_documentales">
+
+            <div class="documentales dinosaurios">
+                <h6>Dinosaurios</h6>
+                <img src="https://images.ecestaticos.com/Cf7y_ohJSes61d9RKpVy8dtzG4E=/0x0:2272x1613/1338x752/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd0b%2Fac2%2Ffe6%2Fd0bac2fe64fa42f30568df2a86900d29.jpg">
                 <p>
-                    <ul>
-                        <li>Director: Kubrick</li>
-                        <li>Año: 1982</li>
-                    </ul>
+                <ul>
+                    <li>Director: Kubrick</li>
+                    <li>Año: 1982</li>
+                </ul>
                 </p>
             </div>
-            <div class="pelicula drama">
-                <h6>Moulin Rouge</h6>
-                <img src="https://www.posterscine.com/media/catalog/product/cache/1c91d037a1f0ef180108abb0973795cc/p/o/poster_moulin_rouge.png">
+
+            <div class="documentales desiertos">
+                <h6>Desiertos</h6>
+                <img
+                    src="https://www.muyinteresante.com/wp-content/uploads/sites/5/2022/10/12/6346bf3d6833c.jpeg">
                 <p>
-                    <ul>
-                        <li>Director: Desconocido</li>
-                        <li>Año: 2003</li>
-                    </ul>
+                <ul>
+                    <li>Director: Desconocido</li>
+                    <li>Año: 2003</li>
+                </ul>
                 </p>
             </div>
-            <div class="pelicula terror comedia">
-                <h6>La sustancia</h6>
-                <img src="https://pics.filmaffinity.com/La_sustancia-675266570-large.jpg">
+
+            <div class="documentales oceanos">
+                <h6>Oceanos</h6>
+                <img src="https://www.geografiainfinita.com/wp-content/uploads/2020/04/Oceano_Doce-1068x712.jpg">
                 <p>
-                    <ul>
-                        <li>Director: Otro Director</li>
-                        <li>Año: 2024</li>
-                    </ul>
+                <ul>
+                    <li>Director: Otro Director</li>
+                    <li>Año: 2024</li>
+                </ul>
                 </p>
             </div>
+
+            <div class="documentales montañas">
+                <h6>Montañas</h6>
+                <img src="https://ecolec.es/greenblog/wp-content/uploads/2023/12/hermosa-vista-montanas-valle-verde.jpg">
+                <p>
+                <ul>
+                    <li>Director: Ruben Fleischer</li>
+                    <li>Año: 2009</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="documentales deslaves">
+                <h6>Deslaves</h6>
+                <img src="https://planv.com.ec/wp-content/uploads/2024/07/deslave-img-20240619-wa0011.jpg">
+                <p>
+                <ul>
+                    <li>Director: John Carpenter</li>
+                    <li>Año: 1989</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="documentales minas">
+                <h6>Minas</h6>
+                <img src="https://aragondocumenta.com/wp-content/uploads/2021/02/DSC_5323-Mina-de-Libros-III-Entibacion-con-arcos-de-ladrillo-1.jpg">
+                <p>
+                <ul>
+                    <li>Director: Wes Craven</li>
+                    <li>Año: 1984</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="documentales ballenas">
+                <h6>Ballenas</h6>
+                <img src="https://www.ngenespanol.com/wp-content/uploads/2024/10/ballenas-del-golfo-de-california-estan-peligro-por-megaproyecto-de-gas-metano.jpg">
+                <p>
+                <ul>
+                    <li>Director: Wes Craven</li>
+                    <li>Año: 1984</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="documentales volcanes">
+                <h6>Volcanes</h6>
+                <img src="https://ecoexploratorio.org/wp-content/uploads/2022/08/Volcan-Parinacota.jpg">
+                <p>
+                <ul>
+                    <li>Director: Wes Craven</li>
+                    <li>Año: 1984</li>
+                </ul>
+                </p>
+            </div>
+
+
         </div>
-        
-    </div>    
+
+    </div>
 </body>
+
 </html>
+
 <script src="codigo.js"></script>
